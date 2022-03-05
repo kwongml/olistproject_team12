@@ -1,0 +1,10 @@
+---
+title: "About this site"
+description: |
+  This website consists of a collection of work done for the term project as part of the ISSS608 Visual Analytics and Applications curriculum.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

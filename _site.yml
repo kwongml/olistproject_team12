@@ -1,0 +1,17 @@
+name: "Team 12 - Olist E-Commerce Data"
+title: "R Shiny Project"
+description: |
+  My Website
+output_dir: "_site"
+navbar:
+right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+left:
+    - text: "Project Submissions"
+      menu:
+      - text: "Project Proposal"
+        href: "Project_Submission/Project_Proposal/Project_Proposal.html"
+output: distill::distill_article

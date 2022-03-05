@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "This website consists of a collection of work done for the term project as part of the ISSS608 Visual Analytics and Applications curriculum.",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-05T16:41:50+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "O List E-Commerce Project (Team 12)",
+      "description": "This website consists of a collection of work done for the term project as part of the ISSS608 Visual Analytics and Applications curriculum.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-05T16:41:52+08:00"
+    }
+  ],
+  "collections": []
+}
