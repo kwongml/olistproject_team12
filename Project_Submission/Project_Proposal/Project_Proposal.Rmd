@@ -33,7 +33,7 @@ Through the use of the [Olist dataset which comprises data from 2016-2018 made a
 
 # 2.0 Problems or issues that the project will address
 
-<center>![](images/olist_icon.png){width=40%}</center>
+<center>![Olist Logo](images/olist_icon.png){width=40%}</center>
 
 
 Olist is a Brazilian e-commerce company which aims to be the largest online shopping platform in the Brazilian market. With a large number of products and sales, a clear visualisation and understanding of the sales and trends of different  products and customers are extremely important for future growth.
@@ -47,20 +47,20 @@ Questions that will be answered in this analysis include:
 
 # 3.0 Relevant related work
 
-In the private ecommerce sector where competition is high, data driven strategies are utilised to explore and solve business problems for profits maximisation. Many business analysts have researched different data visualisation/analytics techniques to see how they can be applied to the e-commerce space to deliver business values.
+Given the strong competition that the e-commerce industry faces, market players often employ data-driven strategies to explore and solve business problems for profit maximisation. 
 
-In the“Market Segmentation Analysis and Visualisation Using K-Mode Clustering Algorithm for E-Commerce Business”, Deepali Kamthania, Ashish Pahwa and Srijit S. Madhavan discussed various BI tools and a decision process for market segmentation based on user behaviour analysis and geographical information. Specifically they deployed a clustering technique(K-mean) to customer’s product-click data for segmentation. They also produced many other data visualisations such as a map of geographical distributions of users using geo-coordinates of the visitors as well as interactive time series, bar plots and graphs to answer important business questions such as “which was the most popular product on any given day.”
+Multiple data visualisation/analytic techniques have been used in recent times within the e-commerce space to deliver business value. [Kamathania et. al (2018)](https://hrcak.srce.hr/en/file/300229) discussed various business intelligence (BI) tools and a decision process for market segmentation based on user behaviour analysis and geographical information. Through the deployment of k-means clustering using customer’s product-click data for segmentation, and geospatial distribution, and time-series, valuable product and commercial insights were derived.
 
-In the public sector, E-commerce sales on a national level is also a topic in the spotlight. 
-In the “A Time-Series Analysis of the U.S. Ecommerce Sales”, researchers D. Steven. White and Godwin C. Ariguzo analysed U.S. ecommerce sales data from the U.S Census bureau using time series analysis. Specifically, they built an autoregressive-moving average model and used it further to examine the residuals to seek an optimised model. In addition, they have also extended the trendline to predict the total U.S. e-commerce sales for 2011,2012, and 2013.
+In another study done by [Steven et. al (2011)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1940960) on historical data for US e-commerce sales obtained from US Censes Bureau, an Autoregressive-moving average (ARIMA) model alongside the Holts-Winters technique was used to predict e-commerce sales from 2011 to 2013; final results show that the e-commerce sales in US were expected to rise rapidly over the course of the 3 year prediction period.
+
 
 # 4.0 Analysis Approach
 
 Our team aims to analyse the activity and performance of Olist through the following metrics:
 
-1. Gross Merchandise Value (GMV) - derived from the sum of value of purchases made in a given observation window
-2. Number of orders
-3. Number of customers
+1. **Gross Merchandise Value (GMV)** - derived from the sum of value of purchases made in a given observation window
+2. **Number of orders**
+3. **Number of customers**
 
 The table below summarizes the key plots and visualisation techniques proposed:
 
@@ -70,15 +70,15 @@ The table below summarizes the key plots and visualisation techniques proposed:
 |2 |**Number of orders** (Month-on-Month) - Aggregated and by product categories|Time-series, Horizon graph, Barplot|To observe any  trends in terms of seasonality, or potential for sales uplift|
 |3 |**Number of customers** (Month-on-Month) - Aggregated and by product categories|Time-series, Horizon graph, Barplot|To observe any  trends in terms of seasonality, or potential for sales uplift|
 |4 |**Number of customers/orders/GMV** by the greater Sao Paolo administrative boundary - Area to be derived using the *geobr* R package|Geovisual Analytics (Chloroploth map)|To understand from a geographical perspective where customer order activity is the highest |
-|5 |**Sales Regression**(monthly)|Multiple linear regression model using lm() of Base Stats of R |To understand where the business is headed in the immediate future|
-|6 |**Correlation Analysis**(between product categories)|Using corrplot() |To understand any relationship between different products to see if there is potential to bundle certain products |
+|5 |**Sales Regression** (Monthly)|Multiple linear regression model using lm() of Base Stats of R |To understand where the business is headed in the immediate future|
+|6 |**Correlation Analysis** (between product categories)|Using corrplot() |To understand any relationship between different products to see if there is potential to bundle certain products |
 |7 |**Heatmap**| |Heatmap comparison of product category split by region|
 |8 |**Funnel Plot**| |Heatmap comparison of product category split by region|
-|9 |**ARIMA modelling (monthly/6-monthly) forecast**| [Using the forecast R package](https://cran.r-project.org/web/packages/forecast/forecast.pdf) |To do a 6 month forecast of customer acquisition/orders/total turnover|
+|9 |**ARIMA modelling** (monthly/6-monthly) forecast| [Using the forecast R package](https://cran.r-project.org/web/packages/forecast/forecast.pdf) |To do a 6 month forecast of customer acquisition/orders/total turnover|
 
 ## 4.1 Dataset
 
-The dataset was obtained from Kaggle (Brazillian E-Commerce Public Dataset by Olist) accessed through this [link](https://www.kaggle.com/olistbr/brazilian-ecommerce). The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
+The dataset was obtained from Kaggle (**Brazillian E-Commerce Public Dataset by Olist**) accessed through this [link](https://www.kaggle.com/olistbr/brazilian-ecommerce). The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
 
 For the current project scope, we will be using the following datasets provided and transforming it accordingly to suit our use case.
 
@@ -86,25 +86,33 @@ The table below illustrates the specific datasets which will be used:
 
 | S/N        |Name         | Description  |
 |:--- |:-------------------------------|:----------------------------------|
-|1 |Olist_oder_customer_dataset.csv|Customer level data|
-|2 |Olist_orders_dataset.csv|Order information|
-|3 |Olist_order_payments_dataset.csv|Order value|
-|4 |Olist_order_items_dataset.csv|Information on the exact type of items in each order|
-|5 |Olist_products_dataset.csv|Map categories to each product|
+|1 |*olist_oder_customer_dataset.csv*|Customer level data|
+|2 |*olist_orders_dataset.csv*|Order information|
+|3 |*olist_order_payments_dataset.csv*|Order value|
+|4 |*olist_order_items_dataset.csv*|Information on the exact type of items in each order|
+|5 |*olist_products_dataset.csv*|Map categories to each product|
 
 
 ## 4.2 Proposed packages to be used
 
+  * **ggplot2()**: to create data visualisations such as barplots etc.
+  * **plotly()**: to create interactive web-based graphs
+  * **readr()**: to get rectangular data out of comma separated (csv)
+  * **sf()**: import geospatial data into R
+  * **dplyr()** and **tidyr()**: for data wrangling
+  * **tmap()**: to create chloropleth maps
+  * **geobr()**: to download official spatial data sets of Brazil
 
 ## 4.3 Project Timeline
 
-| S/N        |Name         | Description  |
-|:--- |:-------------------------------|:----------------------------------|
-|1 |Olist_oder_customer_dataset.csv|Customer level data|
-|2 |Olist_orders_dataset.csv|Order information|
-|3 |Olist_order_payments_dataset.csv|Order value|
-|4 |Olist_order_items_dataset.csv|Information on the exact type of items in each order|
-|5 |Olist_products_dataset.csv|Map categories to each product|
+| Stage       |Task         |By (Date) | Members  |
+|:--- |:-------------------------------|:------------|:------------------|
+|1 |Data Preparation / Wrangling|14 March| JY/ML |
+|2 |Exploratory Data Analysis|20 March|A/JY/ML |
+|3 |ARIMA Modelling + Geospatial Analysis + R Shiny App|20 March|A/JY/ML |
+|4 |Fine-tuning and Start Write-up on Netlify|22 March|A/JY/ML |
+|5 |Write Up/ Poster / User Guide Draft|27 March|A/JY/ML |
+|6 |Project Submission Finalisation (Poster/Application/ User Guide)|2 April|A/JY/ML |
 
 # 5.0 Early Prototypes
 
@@ -162,11 +170,15 @@ Our team has come up with an initial wireframe/protype of the Shiny app which is
 
 # 6.0 References
 
+* [ISSS608 Coursework Curriculum Material](https://isss608-ay2021-22t2.netlify.app/)
+* [Olist Dataset from Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)
+* [Download Official Spatial Data Sets of Brazil using geobr()](https://github.com/ipeaGIT/geobr#readme)
+* [Market Segmentation Analysis and Visualisation Using K-Mode Clustering Algorithm for E-Commerce Business](https://hrcak.srce.hr/en/file/300229)
+* [A Time-Series Analysis of U.S. E-Commerce Sales](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1940960)
 * **Arima Modelling**
+
   + [Arima Modelling](https://rpubs.com/riazakhan94/arima_with_example)
   + [Time Series Forecasting Shiny App Example by aneesha](https://github.com/aneesha/ShinyTimeseriesForecasting)
-
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
 
 
 
