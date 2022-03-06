@@ -42,7 +42,7 @@ Besides acting as a platform for product sales, it also does advertisement of pr
 
 Questions that will be answered in this analysis include:
 
-1. What is the general business trend using data relating to customer activity,, order value and number of orders?
+1. What is the general business trend using data relating to customer activity, order value and number of orders?
 2. What does the data tell us about the potential for sales uplift in the future?
 
 # 3.0 Relevant related work
