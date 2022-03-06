@@ -121,7 +121,7 @@ The table below illustrates the specific datasets which will be used:
       
 # 5.0 Early Prototypes
 
-Our team has come up with an initial wireframe/protype of the Shiny app which is broken down into 3 sections (Overview, Geospatial Analysis, Sales Analysis) to provide the user with a holistic understanding of the performance and trends in terms of customer behaviour, sales and orders. The images below illustrated in greater detail what we hope to create in the final application.
+Our team has come up with an initial wireframe/prototype of the Shiny app which is broken down into 3 sections (Overview, Geospatial Analysis, Sales Analysis) to provide the user with a holistic understanding of the performance and trends in terms of customer behaviour, sales and orders. The images below illustrated in greater detail what we hope to create in the final application.
 
 **1) Overview**
 
