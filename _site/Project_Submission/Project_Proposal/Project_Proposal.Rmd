@@ -21,9 +21,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 1.0 Introduction / Motivation for the Project
 
-Brazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61% suggesting huge potential for growth in the e-commerce landscape.
+Brazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61% suggesting huge potential for growth in the e-commerce landscape. [(Source)](https://worldline.com/en/home/knowledgehub/blog/2021/february/why-brazilian-ecommerce-grew-18-last-year-and-is-not-slowing-down.html#:~:text=Brazil%20is%20the%20largest%20ecommerce,shopping%20during%20the%20coronavirus%20pandemic.)
 
-In 2019, local e-commerce giant Shopee, launched their app in Brazil’s e-tail market, and has become the most downloaded shopping app in Brazil.
+In 2019, local e-commerce giant Shopee, launched their app in Brazil’s e-tail market, and has become the most downloaded shopping app in Brazil. [(Source)](https://vulcanpost.com/760389/shopee-latin-america-tops-app-rankings/#:~:text=Shopee%20has%20become%20the%20most,%E2%80%94%20Mexico%2C%20Colombia%20and%20Chile.)
 
 Through the use of the [Olist dataset which comprises data from 2016-2018 made at multiple Olist Store marketplaces in Brazil](https://www.kaggle.com/olistbr/brazilian-ecommerce), our group aims to:
 
@@ -36,7 +36,7 @@ Through the use of the [Olist dataset which comprises data from 2016-2018 made a
 <center>![Olist Logo](images/olist_icon.png){width=40%}</center>
 
 
-Olist is a Brazilian e-commerce company which aims to be the largest online shopping platform in the Brazilian market. With a large number of products and sales, a clear visualisation and understanding of the sales and trends of different  products and customers are extremely important for future growth.
+Olist is a Brazilian e-commerce company which aims to be the largest online shopping platform in the Brazilian market. [(Source)](https://www.gazetadopovo.com.br/economia/nova-economia/olist-quer-ser-a-maior-loja-virtual-dentro-dos-principais-marketplaces-do-pais-3xbe9k4mn13uzs1pm60ym6znz/) With a large number of products and sales, a clear visualisation and understanding of the sales and trends of different  products and customers are extremely important for future growth.
 
 Besides acting as a platform for product sales, it also does advertisement of products. Hence, the need of understanding different product segments will be critical for their business.
 
