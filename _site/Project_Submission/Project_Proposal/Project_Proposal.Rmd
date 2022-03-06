@@ -72,8 +72,8 @@ The table below summarizes the key plots and visualisation techniques proposed:
 |4 |**Number of customers/orders/GMV** by the greater Sao Paolo administrative boundary - Area to be derived using the *geobr* R package|Geovisual Analytics (Chloroploth map)|To understand from a geographical perspective where customer order activity is the highest |
 |5 |**Sales Regression** (Monthly)|Multiple linear regression model using lm() of Base Stats of R |To understand where the business is headed in the immediate future|
 |6 |**Correlation Analysis** (between product categories)|Using corrplot() |To understand any relationship between different products to see if there is potential to bundle certain products |
-|7 |**Heatmap**| |Heatmap comparison of product category split by region|
-|8 |**Funnel Plot**| |Heatmap comparison of product category split by region|
+|7 |[**Heatmap**](https://isss608-ay2021-22t2.netlify.app/hands-on_ex/hands-on_ex05/hands-on_ex05-heatmap)| Using heatmap() |Heatmap comparison of product category split by region|
+|8 |[**Funnel Plot**](https://isss608-ay2021-22t2.netlify.app/hands-on_ex/hands-on_ex04/hands-on_ex04-funnelplot)|Using FunnelPlotR |Unbiased comparison between regions of Brazil|
 |9 |**ARIMA modelling** (monthly/6-monthly) forecast| [Using the forecast R package](https://cran.r-project.org/web/packages/forecast/forecast.pdf) |To do a 6 month forecast of customer acquisition/orders/total turnover|
 
 ## 4.1 Dataset
@@ -102,6 +102,9 @@ The table below illustrates the specific datasets which will be used:
   * **dplyr()** and **tidyr()**: for data wrangling
   * **tmap()**: to create chloropleth maps
   * **geobr()**: to download official spatial data sets of Brazil
+  * **heatmap()**: to draw a heatmap with a dendogram
+  * **FunnelPlotR()**: uses ggplot to general funnel plots - requires numerator (events of interest), denominator (population to be considered)
+  
 
 ## 4.3 Project Timeline
 
@@ -114,6 +117,8 @@ The table below illustrates the specific datasets which will be used:
 |5 |Write Up/ Poster / User Guide Draft|27 March|A/JY/ML |
 |6 |Project Submission Finalisation (Poster/Application/ User Guide)|2 April|A/JY/ML |
 
+**A** : Amber | **JY** : Jieyuan | **ML** : Mei Lin
+      
 # 5.0 Early Prototypes
 
 Our team has come up with an initial wireframe/protype of the Shiny app which is broken down into 3 sections (Overview, Geospatial Analysis, Sales Analysis) to provide the user with a holistic understanding of the performance and trends in terms of customer behaviour, sales and orders. The images below illustrated in greater detail what we hope to create in the final application.
@@ -175,6 +180,7 @@ Our team has come up with an initial wireframe/protype of the Shiny app which is
 * [Download Official Spatial Data Sets of Brazil using geobr()](https://github.com/ipeaGIT/geobr#readme)
 * [Market Segmentation Analysis and Visualisation Using K-Mode Clustering Algorithm for E-Commerce Business](https://hrcak.srce.hr/en/file/300229)
 * [A Time-Series Analysis of U.S. E-Commerce Sales](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1940960)
+* [Funnel Plot Creation in R](https://isss608-ay2021-22t2.netlify.app/hands-on_ex/hands-on_ex04/hands-on_ex04-funnelplot)
 * **Arima Modelling**
 
   + [Arima Modelling](https://rpubs.com/riazakhan94/arima_with_example)
