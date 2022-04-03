@@ -1,5 +1,5 @@
 name: "Team 12 - Olist E-Commerce Data"
-title: "R Shiny Project"
+title: "Olist E-commerce Data Visualisation Project"
 description: |
   My Website
 output_dir: "_site"
@@ -14,4 +14,10 @@ navbar:
       menu:
       - text: "Project Proposal"
         href: "Project_Submission/Project_Proposal/Project_Proposal.html"
+      - text: "Poster"
+        href: "Project_Submission/Project_Proposal/Project_Proposal.html"
+      - text: "User Guide"
+        href: "Project_Submission/Project_Proposal/Project_Proposal.html"
+      - text: "Shiny Application"
+        href: "https://mlkwong.shinyapps.io/ShinyApp/"
 output: distill::distill_article
