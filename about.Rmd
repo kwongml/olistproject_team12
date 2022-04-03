@@ -1,7 +1,14 @@
 ---
-title: "About this site"
+title: "Derive Brazilian E-Commerce Insights from Olist "
 description: |
-  This website consists of a collection of work done for the term project as part of the ISSS608 Visual Analytics and Applications curriculum.
+
+  Brazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61%. This suggests an immense potential for growth in the Brazilian E-commerce landscapes. (Source) 
+
+  Driven by the interest in the Brazilian e-commerce landscape, our team has built a dashboard using a dataset provided by Olist, Brazilian E-commerce platform, and via the Shiny feature of R.  
+
+  The dashboard allows viewers interaction to learn and visualize the E-commerce market/consumers preferences/purchase trends of the Brazilian market as well as identify potential areas of growth and improvement for Olist as an E-commerce platform. 
+
+  Particularly, the dashboard will be presenting X number of visualizations divided up by three areas of focus. Exploratory analysis can be used to, the predictive analysis can be used for, and geospatial analysis can be used for.  
 ---
 
 ```{r setup, include=FALSE}
