@@ -2,7 +2,7 @@
 title: "Derive Brazilian E-Commerce Insights from Olist "
 description: |
 
-  Brazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61%. This suggests an immense potential for growth in the Brazilian E-commerce landscapes. (Source) 
+  Brazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61%. This suggests an immense potential for growth in the Brazilian E-commerce landscapes.
 
   Driven by the interest in the Brazilian e-commerce landscape, our team has built a dashboard using a dataset provided by Olist, Brazilian E-commerce platform, and via the Shiny feature of R.  
 
