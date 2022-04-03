@@ -1,0 +1,26 @@
+---
+title: "ISSS608 Project Poster (Team 12)"
+description: |
+  
+  Our team's poster for our project submission towards the ISSS608 Visual Analytics module.
+  
+author:
+  - name: Amber Liu, Jieyuan Zhang, Mei Lin Kwong
+    url: https://scis.smu.edu.sg/master-it-business
+    affiliation: MITB (Analytics)
+    affiliation_url: https://scis.smu.edu.sg/
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# 1.0 Project Poster
+
+Our project poster briefly summarizes the key insights and features of our final R shiny application which can be accessed [here](https://mlkwong.shinyapps.io/ShinyApp/).
+
+[Download our poster here](Poster/Poster.pdf)
