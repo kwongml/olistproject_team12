@@ -15,7 +15,7 @@ navbar:
       - text: "Project Proposal"
         href: "Project_Submission/Project_Proposal/Project_Proposal.html"
       - text: "Poster"
-        href: "Project_Submission/Project_Proposal/Project_Proposal.html"
+        href: "Project_Submission/Project_UserGuide/Project_UserGuide.html"
       - text: "User Guide"
         href: "Project_Submission/Project_Proposal/Project_Proposal.html"
       - text: "Shiny Application"
