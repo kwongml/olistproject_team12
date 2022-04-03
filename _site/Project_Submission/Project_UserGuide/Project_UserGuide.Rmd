@@ -1,0 +1,40 @@
+---
+title: "ISSS608 Project User Guide (Team 12)"
+description: |
+  
+  A short description of our team's user guide to our Olist Shiny application.
+  
+author:
+  - name: Amber Liu, Jieyuan Zhang, Mei Lin Kwong
+    url: https://scis.smu.edu.sg/master-it-business
+    affiliation: MITB (Analytics)
+    affiliation_url: https://scis.smu.edu.sg/
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# 1.0 User Guide
+
+This user guide aims to allow users to acquaint themselves with the features and sections of our Olist E-commerce R Shiny Application.
+
+[Download User Guide through this link](UserGuide/UserGuide.pdf)
+
+The application consists of three main sections:
+
+**1. Descriptive (Exploratory Data Analysis)**
+
++ Provides an overview by category and customer city based on total gross merchandise value, and total order count
+
+**2. Geovisual Analysis**
+
++ Provides an overview of cities within Sao Paulo with a map overlay to identify hotspot areas in terms of high order count and high spending to identify areas of opportunity
+
+**3. Sales Forecasting**
+
++ Provides a 1 month forecast by selected categories and allows users to identify how many orders to expect on a particular day by a category of interest

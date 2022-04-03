@@ -6,7 +6,7 @@
       "description": "\nBrazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61%. This suggests an immense potential for growth in the Brazilian E-commerce landscapes. (Source) \n\nDriven by the interest in the Brazilian e-commerce landscape, our team has built a dashboard using a dataset provided by Olist, Brazilian E-commerce platform, and via the Shiny feature of R.  \n\nThe dashboard allows viewers interaction to learn and visualize the E-commerce market/consumers preferences/purchase trends of the Brazilian market as well as identify potential areas of growth and improvement for Olist as an E-commerce platform. \n\nParticularly, the dashboard will be presenting highly curated visualizations divided by three areas of focus. The first tab showing the descriptive and exploratory data will help provide an overview of the sales volume and gross merchandise value by category and customer city. The second tab for the geovisual analysis will help to provide more insights into the Sao Paulo region which can help inform operational planning where sales volumes in particular cities might be higher than usual. Finally, the last tab aims to showcase a 1 month sales volume forecast for the Sao Paulo region broken down by category to help inform users of potential category growth areas.",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-04-03T22:52:27+08:00"
+      "last_modified": "2022-04-03T23:14:54+08:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "\nBrazil is currently the largest ecommerce market in Latin America and the 13th largest in the world despite a low internet penetration of 61%. This suggests an immense potential for growth in the Brazilian E-commerce landscapes. (Source) \n\nDriven by the interest in the Brazilian e-commerce landscape, our team has built a dashboard using a dataset provided by Olist, Brazilian E-commerce platform, and via the Shiny feature of R.  \n\nThe dashboard allows viewers interaction to learn and visualize the E-commerce market/consumers preferences/purchase trends of the Brazilian market as well as identify potential areas of growth and improvement for Olist as an E-commerce platform. \n\nParticularly, the dashboard will be presenting highly curated visualizations divided by three areas of focus. The first tab showing the descriptive and exploratory data will help provide an overview of the sales volume and gross merchandise value by category and customer city. The second tab for the geovisual analysis will help to provide more insights into the Sao Paulo region which can help inform operational planning where sales volumes in particular cities might be higher than usual. Finally, the last tab aims to showcase a 1 month sales volume forecast for the Sao Paulo region broken down by category to help inform users of potential category growth areas.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-04-03T22:52:32+08:00"
+      "last_modified": "2022-04-03T23:14:56+08:00"
     }
   ],
   "collections": []
