@@ -11,7 +11,7 @@ description: |
   Particularly, the dashboard will be presenting highly curated visualizations divided by three areas of focus. The first tab showing the descriptive and exploratory data will help provide an overview of the sales volume and gross merchandise value by category and customer city. The second tab for the geovisual analysis will help to provide more insights into the Sao Paulo region which can help inform operational planning where sales volumes in particular cities might be higher than usual. Finally, the last tab aims to showcase a 1 month sales volume forecast for the Sao Paulo region broken down by category to help inform users of potential category growth areas.
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
+
+```{.r .distill-force-highlighting-css}
+```
